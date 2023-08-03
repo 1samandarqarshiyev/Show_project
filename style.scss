@@ -1,0 +1,186 @@
+header{
+    background-image: url(images/header_photo.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    #header_row1{
+        background-image: url(images/blue_fon.png);
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            width: 140px auto;
+            height: 58px auto;
+        }
+        a{
+            color: rgb(255, 255, 255);
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        :active{
+            color: black;
+        }
+    }
+    #header_row2{
+        // background-image: url(images/blue_fon.png);
+        margin-top: 200px;
+        h1{
+            color: white;
+        }
+        p{
+            margin-top: 30px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        button{
+            border: 1px white solid;
+            border-radius: 0px;
+            color: white;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+main{
+    margin-top: 150px;
+    .container{
+        #main_row1{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #main_row2{
+            img{
+                width: auto;
+                height: auto;
+                margin-bottom: 10px;
+            }
+        }
+        #main_row3{
+            margin-top: 80px;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            #main_row3_a1{
+                margin-top: 50px;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+            }
+            #main_row3_a2{
+                margin-top: 50px;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+            }
+        }
+        #main_row4{
+            margin-bottom: 100px;
+        }
+        #main_row5{
+            margin-bottom: 50px;
+        }
+        #main_row6{
+            display: flex;
+            align-items: center;
+            #main_row6_col2{
+                border: 3px rgba(0, 91, 193, 1) solid;
+                h5{
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    margin-top: 10px;
+                }
+            }
+        }
+        #main_row7{
+            margin-top: 100px;
+            margin-bottom: 80px;
+            button{
+                border-radius: 0px;
+            }
+            #button{
+                display: flex;
+                justify-content: end;
+            }
+        }
+        #main_row8{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            a{
+                color: black;
+            }
+            #main_row8_div3{
+                img{
+                    margin-top: 25px;
+                }
+                p{
+                    margin-top: 20px;
+                }
+                #main_row8_div3_p2{
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+            #main_row8_div4{
+                h6{
+                    display: flex;
+                    align-items: flex-start;
+                }
+                img{
+                    margin-top: 35px;
+                }
+                p{
+                    margin-top: 20px;
+                }
+                #main_row8_div4_p2{
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+        }
+    }
+}
+
+
+footer{
+    .container-fluid{
+        background-color: rgba(0, 91, 193, 1);
+        hr{
+            color: white;
+        }
+        .container{
+            #footer_container1{
+                p{
+                    margin-top: 30px;
+                    color: white;
+                }
+                #footer_row1_div3{
+                    display: flex;
+                    justify-content: end;
+                }
+            }
+            #footer_container2{
+                margin-top: 30px;
+                p{
+                    color: white;
+                }
+            }
+            #footer_container3{
+                #footer_container3_p2{
+                    display: flex;
+                    justify-content: end;
+                }
+                p{
+                    color: white;
+                }
+            }
+        }
+    }
+}

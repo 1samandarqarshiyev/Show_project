@@ -1,0 +1,167 @@
+header {
+  background-image: url(images/header_photo.png);
+  background-repeat: no-repeat;
+  height: 800px;
+}
+header #header_row1 {
+  background-image: url(images/blue_fon.png);
+}
+header #header_row1 .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header #header_row1 img {
+  width: 140px auto;
+  height: 58px auto;
+}
+header #header_row1 a {
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+header #header_row1 :active {
+  color: black;
+}
+header #header_row2 {
+  margin-top: 200px;
+}
+header #header_row2 h1 {
+  color: white;
+}
+header #header_row2 p {
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+header #header_row2 button {
+  border: 1px white solid;
+  border-radius: 0px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+main {
+  margin-top: 150px;
+}
+main .container #main_row1 {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .container #main_row2 img {
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+}
+main .container #main_row3 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+main .container #main_row3 #main_row3_a1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+main .container #main_row3 #main_row3_a2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+main .container #main_row4 {
+  margin-bottom: 100px;
+}
+main .container #main_row5 {
+  margin-bottom: 50px;
+}
+main .container #main_row6 {
+  display: flex;
+  align-items: center;
+}
+main .container #main_row6 #main_row6_col2 {
+  border: 3px rgb(0, 91, 193) solid;
+}
+main .container #main_row6 #main_row6_col2 h5 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+main .container #main_row6 #main_row6_col2 p {
+  margin-top: 10px;
+}
+main .container #main_row7 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+main .container #main_row7 button {
+  border-radius: 0px;
+}
+main .container #main_row7 #button {
+  display: flex;
+  justify-content: end;
+}
+main .container #main_row8 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+main .container #main_row8 a {
+  color: black;
+}
+main .container #main_row8 #main_row8_div3 img {
+  margin-top: 25px;
+}
+main .container #main_row8 #main_row8_div3 p {
+  margin-top: 20px;
+}
+main .container #main_row8 #main_row8_div3 #main_row8_div3_p2 {
+  display: flex;
+  align-items: flex-end;
+}
+main .container #main_row8 #main_row8_div4 h6 {
+  display: flex;
+  align-items: flex-start;
+}
+main .container #main_row8 #main_row8_div4 img {
+  margin-top: 35px;
+}
+main .container #main_row8 #main_row8_div4 p {
+  margin-top: 20px;
+}
+main .container #main_row8 #main_row8_div4 #main_row8_div4_p2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+footer .container-fluid {
+  background-color: rgb(0, 91, 193);
+}
+footer .container-fluid hr {
+  color: white;
+}
+footer .container-fluid .container #footer_container1 p {
+  margin-top: 30px;
+  color: white;
+}
+footer .container-fluid .container #footer_container1 #footer_row1_div3 {
+  display: flex;
+  justify-content: end;
+}
+footer .container-fluid .container #footer_container2 {
+  margin-top: 30px;
+}
+footer .container-fluid .container #footer_container2 p {
+  color: white;
+}
+footer .container-fluid .container #footer_container3 #footer_container3_p2 {
+  display: flex;
+  justify-content: end;
+}
+footer .container-fluid .container #footer_container3 p {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
