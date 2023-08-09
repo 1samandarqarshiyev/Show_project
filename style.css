@@ -1,141 +1,225 @@
 header {
+  margin: 0px;
   background-image: url(images/header_photo.png);
   background-repeat: no-repeat;
-  height: 800px;
+  width: 100%;
+  height: auto;
 }
-header #header_row1 {
+header .container-fluid {
   background-image: url(images/blue_fon.png);
 }
-header #header_row1 .row {
+header .container-fluid .container .row {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
-header #header_row1 img {
-  width: 140px auto;
-  height: 58px auto;
+header .container-fluid .container .row img {
+  width: 120px;
+  height: 50px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
-header #header_row1 a {
-  color: rgb(255, 255, 255);
-  margin-top: 15px;
-  margin-bottom: 15px;
+header .container-fluid .container .row ul li a {
+  color: white;
 }
-header #header_row1 :active {
+header .container-fluid .container .row ul li :active {
   color: black;
 }
-header #header_row2 {
-  margin-top: 200px;
+header .header_container2 .row .header_container2_div2 {
+  margin-top: 180px;
+  margin-bottom: 220px;
 }
-header #header_row2 h1 {
+header .header_container2 .row .header_container2_div2 h1 {
   color: white;
+  width: 100%;
 }
-header #header_row2 p {
-  margin-top: 30px;
-  color: white;
+header .header_container2 .row .header_container2_div2 p {
+  margin-top: 20px;
   margin-bottom: 20px;
+  color: white;
+  width: 100%;
 }
-header #header_row2 button {
+header .header_container2 .row .header_container2_div2 button {
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 1px white solid;
   border-radius: 0px;
   color: white;
-  margin-bottom: 50px;
+  width: 40%;
 }
 
-main {
-  margin-top: 150px;
-}
-main .container #main_row1 {
+main .container .main_row1 {
+  margin-top: 70px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main .container #main_row2 img {
-  width: auto;
+main .container .main_row1 img {
+  width: 100%;
+  height: auto;
+}
+main .container .main_row2 {
+  display: flex;
+  justify-content: center;
+}
+main .container .main_row2 img {
+  width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
-main .container #main_row3 {
-  margin-top: 80px;
+main .container .main_row3 {
+  margin-top: 70px;
   margin-bottom: 50px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
-main .container #main_row3 #main_row3_a1 {
-  margin-top: 50px;
+main .container .main_row3 img {
+  width: 100%;
+  height: auto;
+}
+main .container .main_row4 .main_row4_a1 {
+  margin-bottom: 50px;
   display: flex;
   justify-content: end;
   align-items: center;
 }
-main .container #main_row3 #main_row3_a2 {
-  margin-top: 50px;
+main .container .main_row4 .main_row4_a2 {
+  margin-bottom: 50px;
   display: flex;
   justify-content: start;
   align-items: center;
 }
-main .container #main_row4 {
-  margin-bottom: 100px;
+main .container .main_row5 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
-main .container #main_row5 {
-  margin-bottom: 50px;
-}
-main .container #main_row6 {
-  display: flex;
-  align-items: center;
-}
-main .container #main_row6 #main_row6_col2 {
-  border: 3px rgb(0, 91, 193) solid;
-}
-main .container #main_row6 #main_row6_col2 h5 {
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-main .container #main_row6 #main_row6_col2 p {
-  margin-top: 10px;
-}
-main .container #main_row7 {
-  margin-top: 100px;
-  margin-bottom: 80px;
-}
-main .container #main_row7 button {
-  border-radius: 0px;
-}
-main .container #main_row7 #button {
-  display: flex;
-  justify-content: end;
-}
-main .container #main_row8 {
+main .container .main_row6 {
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
-main .container #main_row8 a {
-  color: black;
+main .container .main_row6 img {
+  width: 100%;
+  height: auto;
 }
-main .container #main_row8 #main_row8_div3 img {
-  margin-top: 25px;
-}
-main .container #main_row8 #main_row8_div3 p {
-  margin-top: 20px;
-}
-main .container #main_row8 #main_row8_div3 #main_row8_div3_p2 {
+main .container .main_row7 {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
-main .container #main_row8 #main_row8_div4 h6 {
+main .container .main_row7 .main_row6_col1 p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+}
+main .container .main_row7 .main_row6_col2 .row {
+  border: 3px rgb(0, 91, 193) solid;
+  padding: 12px;
+}
+main .container .main_row7 .main_row6_col2 .row h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+main .container .main_row7 .main_row6_col2 .row ul li p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+main .container .main_row8 {
+  margin-top: 100px;
+  margin-bottom: 80px;
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
-main .container #main_row8 #main_row8_div4 img {
-  margin-top: 35px;
+main .container .main_row8 img {
+  width: 100%;
+  height: auto;
 }
-main .container #main_row8 #main_row8_div4 p {
-  margin-top: 20px;
+main .container .main_row8 button {
+  border-radius: 0px;
+  width: 100%;
+  height: auto;
 }
-main .container #main_row8 #main_row8_div4 #main_row8_div4_p2 {
+main .container .main_row9 {
+  margin-bottom: 50px;
+}
+main .container .main_row9 .main_row9_col_1 {
+  border: 1px rgb(225, 227, 229) solid;
+  margin-bottom: 10px;
+}
+main .container .main_row9 .main_row9_col_1 img {
+  width: 100%;
+}
+main .container .main_row9 .main_row9_col_2 {
+  border: 1px rgb(225, 227, 229) solid;
+  margin-bottom: 10px;
+}
+main .container .main_row9 .main_row9_col_2 a {
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+main .container .main_row9 .main_row9_col_2 .row {
+  margin-top: 5px;
+}
+main .container .main_row9 .main_row9_col_3 {
+  border: 1px rgb(225, 227, 229) solid;
+  margin-bottom: 10px;
+}
+main .container .main_row9 .main_row9_col_3 .row {
+  margin-top: 5px;
   display: flex;
-  align-items: flex-end;
+  align-items: end;
+  margin-bottom: 0px;
+}
+main .container .main_row9 .main_row9_col_3 .row img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+main .container .main_row9 .main_row9_col_3 .row p {
+  display: flex;
+  align-items: end;
+  margin-bottom: 0px;
+}
+main .container .main_row9 .main_row9_col_3 .row .data {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-bottom: 0px;
+}
+main .container .main_row9 .main_row9_col_4 {
+  border: 1px rgb(225, 227, 229) solid;
+  margin-bottom: 10px;
+}
+main .container .main_row9 .main_row9_col_4 .row {
+  margin-top: 5px;
+  display: flex;
+  align-items: end;
+  margin-bottom: 0px;
+}
+main .container .main_row9 .main_row9_col_4 .row img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+main .container .main_row9 .main_row9_col_4 .row p {
+  display: flex;
+  align-items: end;
+  margin-bottom: 0px;
+}
+main .container .main_row9 .main_row9_col_4 .row .data {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-bottom: 0px;
 }
 
 footer .container-fluid {
@@ -144,24 +228,28 @@ footer .container-fluid {
 footer .container-fluid hr {
   color: white;
 }
-footer .container-fluid .container #footer_container1 p {
+footer .container-fluid .container .footer_container1 p {
   margin-top: 30px;
   color: white;
 }
-footer .container-fluid .container #footer_container1 #footer_row1_div3 {
+footer .container-fluid .container .footer_container1 .footer_row1_div3 {
   display: flex;
   justify-content: end;
 }
-footer .container-fluid .container #footer_container2 {
+footer .container-fluid .container .footer_container2 {
   margin-top: 30px;
 }
-footer .container-fluid .container #footer_container2 p {
-  color: white;
+footer .container-fluid .container .footer_container2 .col_a {
+  margin-bottom: 15px;
 }
-footer .container-fluid .container #footer_container3 #footer_container3_p2 {
+footer .container-fluid .container .footer_container2 .col_a a {
+  color: white;
+  text-decoration: none;
+}
+footer .container-fluid .container .footer_container3 .footer_container3_p2 {
   display: flex;
   justify-content: end;
 }
-footer .container-fluid .container #footer_container3 p {
+footer .container-fluid .container .footer_container3 p {
   color: white;
 }/*# sourceMappingURL=style.css.map */
